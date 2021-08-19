@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OpenCart Test Suite" duration-ms="37352" started-at="2021-08-19T08:19:17 IST" finished-at="2021-08-19T08:19:54 IST">
+    <groups>
+      <group name="sanity">
+        <method signature="TC_001_AccountRegistration.accountReg()[pri:0, instance:testCases.TC_001_AccountRegistration@2d6eabae]" name="accountReg" class="testCases.TC_001_AccountRegistration"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_AccountRegistration.accountReg()[pri:0, instance:testCases.TC_001_AccountRegistration@2d6eabae]" name="accountReg" class="testCases.TC_001_AccountRegistration"/>
+      </group> <!-- master -->
+    </groups>
+    <test name="OpenCart Tests" duration-ms="37352" started-at="2021-08-19T08:19:17 IST" finished-at="2021-08-19T08:19:54 IST">
+      <class name="testCases.TC_001_AccountRegistration">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@2d6eabae]" name="setup" is-config="true" duration-ms="7074" started-at="2021-08-19T08:19:17 IST" finished-at="2021-08-19T08:19:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="accountReg()[pri:0, instance:testCases.TC_001_AccountRegistration@2d6eabae]" name="accountReg" duration-ms="28885" started-at="2021-08-19T08:19:24 IST" finished-at="2021-08-19T08:19:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountReg -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistration@2d6eabae]" name="teardown" is-config="true" duration-ms="677" started-at="2021-08-19T08:19:53 IST" finished-at="2021-08-19T08:19:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+    </test> <!-- OpenCart Tests -->
+  </suite> <!-- OpenCart Test Suite -->
+</testng-results>
